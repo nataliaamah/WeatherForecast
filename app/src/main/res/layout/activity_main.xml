@@ -20,6 +20,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/cityFind"
             android:orientation="vertical">
 
             <TextView
@@ -54,12 +55,12 @@
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/editInputCity"
                         android:layout_width="300dp"
-                        android:layout_height="40dp"
+                        android:layout_height="48dp"
                         android:importantForAutofill="no"
                         android:inputType="text"
                         android:singleLine="true"
                         android:textColor="@color/white"
-                        android:textSize="17sp" />
+                        android:textSize="14sp" />
 
 
                 </com.google.android.material.textfield.TextInputLayout>
@@ -154,7 +155,7 @@
                         app:srcCompat="@drawable/rain" />
 
                     <TextView
-                        android:id="@+id/chanceRain"
+                        android:id="@+id/amountRain"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="22%"
